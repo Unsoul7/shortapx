@@ -1,3 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navclose {
+  @apply flex flex-col py-5 text-center bg-blue-950 absolute -top-full left-0 w-full justify-center items-center transition-all;
+}
+
+.navopen{
+  @apply flex flex-col py-5 text-center bg-blue-950 absolute top-0 left-0 w-full justify-center items-center transition-all;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
